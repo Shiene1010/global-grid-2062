@@ -1,0 +1,5 @@
+// GitHub Actions 빌드 시점에 환경 변수로 실시간 치환됩니다.
+window.ENV_GA_ID = "{{GA_MEASUREMENT_ID}}";
+window.ENV_GISCUS_REPO = "{{GISCUS_REPO}}";
+window.ENV_GISCUS_REPO_ID = "{{GISCUS_REPO_ID}}";
+window.ENV_GISCUS_CATEGORY_ID = "{{GISCUS_CATEGORY_ID}}";

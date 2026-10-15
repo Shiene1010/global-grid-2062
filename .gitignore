@@ -1,0 +1,12 @@
+# Local Secrets & Variables
+src/config.js
+
+# Build Outputs
+index.html
+*.zip
+tweego_bin/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
