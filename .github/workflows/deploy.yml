@@ -43,7 +43,9 @@ jobs:
 
       - name: Compile Markdown to HTML
         run: |
-          ./tweego_bin/tweego -o index.html --format=sugarcube-2 src/
+          # Tweego는 .md를 무시하므로 .twee 빌드용 복사본 생성
+          for f in src/*.md; do cp "$f" "${f%.md}.twee"; done
+          ./tweego_bin/tweego --log-files --log-stats -o index.html --format=sugarcube-2 src/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

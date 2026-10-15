@@ -1,5 +1,7 @@
 # Local Secrets & Variables
 src/config.js
+# Tweego build intermediates generated from .md
+src/*.twee
 
 # Build Outputs
 index.html

@@ -1,6 +1,14 @@
 :: StoryTitle
 지구 춘추전국: 글로벌 그리드 2062
 
+:: StoryData
+{
+  "ifid": "5F41A2A5-52A0-48B0-9A0C-ADEF6DD2EF3D",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Start"
+}
+
 :: UserInit [script]
 window.bunker_battery = 4;
 window.human_humanity = 100;
