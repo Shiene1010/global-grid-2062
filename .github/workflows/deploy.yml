@@ -38,7 +38,7 @@ jobs:
           unzip tweego-2.1.1-linux-x64.zip -d tweego_bin
           chmod +x tweego_bin/tweego
           mkdir -p ~/.local/share/Tweego/storyformats
-          wget -O sugarcube-2.zip https://www.motoslave.net/sugarcube/download.php/2/sugarcube-2.36.1-for-twine-2.1-local.zip
+          wget -O sugarcube-2.zip https://github.com/tmedwards/sugarcube-2/releases/download/v2.36.1/sugarcube-2.36.1-for-twine-2.1-local.zip
           unzip sugarcube-2.zip -d ~/.local/share/Tweego/storyformats/sugarcube-2
 
       - name: Compile Markdown to HTML
